@@ -9,16 +9,3 @@
     padding: 40px 40px 30px;
   }
 }
-
-input[type="range"]{
-  pointer-events:none;
-}
-input[type="range"]::-webkit-slider-thumb {
-  pointer-events:all;
-}
-input[type="range"]::-moz-range-thumb {
-  pointer-events:all;
-}
-input[type="range"]::-ms-thumb {
-  pointer-events:all;
-}

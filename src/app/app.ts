@@ -30,12 +30,12 @@ export interface Settings {
 })
 export class App {
   public settings = signal<Settings>({
-    k: 5500,
-    neutralK: 5500,
-    defaultK: 5500,
+    k: 6500,
+    neutralK: 6500,
+    defaultK: 6500,
     minK: 2500,
-    maxK: 10000,
-    stepK: 100,
+    maxK: 12000,
+    stepK: 500,
     radius: 0,
     defaultRadius: 0,
     minRadius: 0,

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1766011457741,
+  "timestamp": 1766012590924,
   "index": "/ring-light/index.html",
   "assetGroups": [
     {
@@ -13,9 +13,9 @@
       "urls": [
         "/ring-light/favicon.ico",
         "/ring-light/index.html",
-        "/ring-light/main-437RMEIS.js",
+        "/ring-light/main-M2OCEGRA.js",
         "/ring-light/manifest.webmanifest",
-        "/ring-light/styles-TTF65O5D.css"
+        "/ring-light/styles-L4LCKIRW.css"
       ],
       "patterns": []
     },
@@ -41,19 +41,19 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/ring-light/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/ring-light/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
-    "/ring-light/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
-    "/ring-light/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
-    "/ring-light/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
-    "/ring-light/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
-    "/ring-light/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
-    "/ring-light/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/ring-light/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/ring-light/index.html": "7181a56e5a47920367ace34fcf2d1c19dfb041a7",
-    "/ring-light/main-437RMEIS.js": "fd057fe751c5b31b14708dc55c95f3dbe2fa7fed",
+    "/ring-light/favicon.ico": "ab3faa03e07c8ca65fd9d8a5e491e9ca605873d4",
+    "/ring-light/icons/icon-128x128.png": "5540a1c86fe807ce7346d77e5e62ca03a3323f50",
+    "/ring-light/icons/icon-144x144.png": "f207bdc6626507c24e08f4f74fddb85a8f48da91",
+    "/ring-light/icons/icon-152x152.png": "1e8d5f3afacf57557e4e3b000f693fc13d5dd2f1",
+    "/ring-light/icons/icon-192x192.png": "c184ef9219c1d43dc6f4600e8ad09f61b53ca8cf",
+    "/ring-light/icons/icon-384x384.png": "db60fc602e686bda2df19da816134fa2f743abea",
+    "/ring-light/icons/icon-512x512.png": "6ced992298aff5bd983a4bfee311217a00f7f785",
+    "/ring-light/icons/icon-72x72.png": "24ae4dea028fcc352147942e14068fe077c9dc75",
+    "/ring-light/icons/icon-96x96.png": "b0e59329aa37b37dba9c3ecbd97ca424bb15d821",
+    "/ring-light/index.html": "8441675c5c85a53a162d1c8f81ce25e008f9b2b2",
+    "/ring-light/main-M2OCEGRA.js": "dbf2e3aa5b2ad2d1b49e2d8c718801d8fe2d7fec",
     "/ring-light/manifest.webmanifest": "9d79e3f5e2be0856c7e136f2ef3877f99d1f7590",
-    "/ring-light/styles-TTF65O5D.css": "6d0ebec924d56b2fcb5ecc2dc6795dc303323734"
+    "/ring-light/styles-L4LCKIRW.css": "5bc96f370a9448839ab588b7231c3b356b898227"
   },
   "navigationUrls": [
     {
