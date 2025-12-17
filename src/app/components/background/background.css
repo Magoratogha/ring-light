@@ -1,0 +1,20 @@
+.background {
+  z-index: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ring {
+    --t: 0;
+    --size: min(100dvw, 100dvh);
+    width:  calc(100dvw - (100dvw - var(--size)) * var(--t));
+    height: calc(100dvh - (100dvh - var(--size)) * var(--t));
+    border-radius: calc(50% * var(--t));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .inner {
+      background-color: black;
+    }
+  }
+}

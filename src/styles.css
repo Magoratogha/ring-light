@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.page-container {
+  width: 100dvw;
+  height: 100dvh;
+  position: fixed;
+}
+
+.tools-bottom-sheet {
+  .mat-bottom-sheet-container {
+    padding: 40px 40px 30px;
+  }
+}

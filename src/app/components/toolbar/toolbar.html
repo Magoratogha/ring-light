@@ -1,0 +1,8 @@
+<div class="toolbar-button d-flex m-4 gap-4">
+  <button matFab (click)="openBottomSheet()">
+    <mat-icon>tune</mat-icon>
+  </button>
+  <button matFab (click)="toggleFullscreen()">
+    <mat-icon>{{ isFullscreen ? 'fullscreen_exit' : 'fullscreen' }}</mat-icon>
+  </button>
+</div>

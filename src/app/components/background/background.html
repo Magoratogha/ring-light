@@ -1,0 +1,6 @@
+<div class="page-container background">
+  <div class="ring" [style.background-color]="bgColor()" [style.--t]="aspectRatio()">
+    <div class="inner" [style.border-radius.%]="settings()!.radius" [style.width.%]="100 - settings()!.fill" [style.height.%]="100 - settings()!.fill">
+    </div>
+  </div>
+</div>
