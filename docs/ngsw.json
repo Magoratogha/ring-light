@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1766014654259,
+  "timestamp": 1766015039187,
   "index": "/ring-light/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/ring-light/favicon.ico",
         "/ring-light/index.html",
-        "/ring-light/main-SUH44PKG.js",
+        "/ring-light/main-JSIISIYS.js",
         "/ring-light/manifest.webmanifest",
         "/ring-light/styles-L4LCKIRW.css"
       ],
@@ -50,8 +50,8 @@
     "/ring-light/icons/icon-512x512.png": "6ced992298aff5bd983a4bfee311217a00f7f785",
     "/ring-light/icons/icon-72x72.png": "24ae4dea028fcc352147942e14068fe077c9dc75",
     "/ring-light/icons/icon-96x96.png": "b0e59329aa37b37dba9c3ecbd97ca424bb15d821",
-    "/ring-light/index.html": "e5f0be23109eb91ff00c1001ba91e35ab97f9313",
-    "/ring-light/main-SUH44PKG.js": "27e99a72a3eb3275b69fa60cd8a438e34fbc652c",
+    "/ring-light/index.html": "b918f3b22fe5d27804ee475cf431157199b6cc9b",
+    "/ring-light/main-JSIISIYS.js": "cea719dc3657ff9c272ab4b5887dbf227ecf6518",
     "/ring-light/manifest.webmanifest": "be53f9a8b3be76f453aa7f5003d52db076061d08",
     "/ring-light/styles-L4LCKIRW.css": "5bc96f370a9448839ab588b7231c3b356b898227"
   },
