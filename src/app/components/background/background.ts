@@ -29,7 +29,7 @@ export class Background {
 
     let r: number, g: number, b: number;
 
-    if (temp <= 50) {
+    if (temp <= 66) {
       r = 255;
       g = 99.4708025861 * Math.log(temp) - 161.1195681661;
       b = temp <= 19 ? 0 : 138.5177312231 * Math.log(temp - 10) - 305.0447927307;
