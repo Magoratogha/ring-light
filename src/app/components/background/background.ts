@@ -1,5 +1,5 @@
-import {Component, computed, input} from '@angular/core';
-import {Settings} from '../../app';
+import { Component, computed, input } from '@angular/core';
+import { Settings } from '../../app';
 
 @Component({
   selector: 'app-background',
@@ -29,12 +29,10 @@ export class Background {
 
     let r: number, g: number, b: number;
 
-    if (temp <= 66) {
+    if (temp <= 50) {
       r = 255;
       g = 99.4708025861 * Math.log(temp) - 161.1195681661;
-      b = temp <= 19
-        ? 0
-        : 138.5177312231 * Math.log(temp - 10) - 305.0447927307;
+      b = temp <= 19 ? 0 : 138.5177312231 * Math.log(temp - 10) - 305.0447927307;
     } else {
       r = 329.698727446 * Math.pow(temp - 60, -0.1332047592);
       g = 288.1221695283 * Math.pow(temp - 60, -0.0755148492);
@@ -50,9 +48,7 @@ export class Background {
 
     if (k === NEUTRAL) return 0;
 
-    const range = k < NEUTRAL
-      ? NEUTRAL - this.settings()!.minK
-      : this.settings()!.maxK - NEUTRAL;
+    const range = k < NEUTRAL ? NEUTRAL - this.settings()!.minK : this.settings()!.maxK - NEUTRAL;
 
     const dist = Math.abs(k - NEUTRAL) / range;
 

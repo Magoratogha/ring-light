@@ -30,22 +30,22 @@ export interface Settings {
 })
 export class App {
   public settings = signal<Settings>({
-    k: 6500,
-    neutralK: 6500,
-    defaultK: 6500,
-    minK: 2500,
-    maxK: 12000,
-    stepK: 500,
+    k: 6000,
+    neutralK: 6000,
+    defaultK: 6000,
+    minK: 1000,
+    maxK: 11000,
+    stepK: 1000,
     radius: 0,
     defaultRadius: 0,
     minRadius: 0,
     maxRadius: 50,
-    stepRadius: 1,
+    stepRadius: 5,
     fill: 100,
     defaultFill: 100,
-    minFill: 1,
+    minFill: 10,
     maxFill: 100,
-    stepFill: 1,
+    stepFill: 10,
     enableFullScreen: false,
   });
 }
