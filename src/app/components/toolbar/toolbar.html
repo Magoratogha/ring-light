@@ -2,7 +2,9 @@
   <button matFab (click)="openBottomSheet()">
     <mat-icon>tune</mat-icon>
   </button>
+  @if (settings()!().enableFullScreen) {
   <button matFab (click)="toggleFullscreen()">
     <mat-icon>{{ isFullscreen ? 'fullscreen_exit' : 'fullscreen' }}</mat-icon>
   </button>
+  }
 </div>

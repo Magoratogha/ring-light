@@ -1,6 +1,6 @@
-import {Component, signal} from '@angular/core';
-import {Background} from './components/background/background';
-import {Toolbar} from './components/toolbar/toolbar';
+import { Component, signal } from '@angular/core';
+import { Background } from './components/background/background';
+import { Toolbar } from './components/toolbar/toolbar';
 
 export interface Settings {
   k: number;
@@ -19,16 +19,14 @@ export interface Settings {
   minFill: number;
   maxFill: number;
   stepFill: number;
+  enableFullScreen: boolean;
 }
 
 @Component({
   selector: 'app-root',
-  imports: [
-    Background,
-    Toolbar
-  ],
+  imports: [Background, Toolbar],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {
   public settings = signal<Settings>({
@@ -47,6 +45,7 @@ export class App {
     defaultFill: 100,
     minFill: 1,
     maxFill: 100,
-    stepFill: 1
+    stepFill: 1,
+    enableFullScreen: false,
   });
 }
