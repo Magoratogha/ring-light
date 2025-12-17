@@ -1,6 +1,6 @@
 {
-  "name": "ring-light",
-  "short_name": "ring-light",
+  "name": "Ring Light",
+  "short_name": "Ring Light",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1766014589896,
+  "timestamp": 1766014654259,
   "index": "/ring-light/index.html",
   "assetGroups": [
     {
@@ -52,7 +52,7 @@
     "/ring-light/icons/icon-96x96.png": "b0e59329aa37b37dba9c3ecbd97ca424bb15d821",
     "/ring-light/index.html": "e5f0be23109eb91ff00c1001ba91e35ab97f9313",
     "/ring-light/main-SUH44PKG.js": "27e99a72a3eb3275b69fa60cd8a438e34fbc652c",
-    "/ring-light/manifest.webmanifest": "9d79e3f5e2be0856c7e136f2ef3877f99d1f7590",
+    "/ring-light/manifest.webmanifest": "be53f9a8b3be76f453aa7f5003d52db076061d08",
     "/ring-light/styles-L4LCKIRW.css": "5bc96f370a9448839ab588b7231c3b356b898227"
   },
   "navigationUrls": [
