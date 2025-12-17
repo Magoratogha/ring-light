@@ -28,7 +28,11 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/custom-theme.scss",
               "src/styles.css"
-            ]
+            ],
+            "outputPath": {
+              "base": "docs",
+              "browser": ""
+            }
           },
           "configurations": {
             "production": {
